@@ -1,0 +1,91 @@
+# Misfits Add - dedicated Bold Brigade armor variants.
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: MisfitsBoldBrigadeVest
+  name: Brigade Vest
+  description: "A basic vest made out of steel and copper. Provides decent protection from slashing and piercing attacks, but has near no protection against bludgeons."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.10
+        Slash: 0.20
+        Piercing: 0.20
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: MisfitsBoldBrigadeVestChainmail
+  name: Brigade Vest Chainmail
+  description: "A basic vest made of steel and copper reinforced with a chainmail shirt. Provides good protection against slashing, decent against piercing, and next to none against bludgeoning."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest_chainmail.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest_chainmail.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.10
+        Slash: 0.30
+        Piercing: 0.20
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: MisfitsBoldBrigadeVestReinforced
+  name: Brigade Vest Reinforced
+  description: "A sturdy vest with a chainmail shirt, reinforced with steel on the back and front. Provides good protection against ballistics and piercing alongside slashing."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest_reinforced.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest_reinforced.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.20
+        Slash: 0.20
+        Piercing: 0.30
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: MisfitsBoldBrigadeVestReinforcedChainmail
+  name: Brigade Vest Reinforced Chainmail
+  description: "A sturdy vest with a chainmail shirt, reinforced with steel on the back and front. Provides good protection against ballistics and piercing alongside slashing."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest_reinforced_chainmail.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_vest_reinforced_chainmail.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.20
+        Slash: 0.30
+        Piercing: 0.30
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: MisfitsBoldBrigadeRobe
+  name: Brigade Robe
+  description: "A common piece of clothing used by the members of the Bold Brigade mercenary company."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_robe.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_robe.rsi
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: MisfitsBoldBrigadeRobeWarrior
+  name: Warrior Robe
+  description: "A robe worn by honorable warriors."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_robe_warrior.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/OuterClothing/boldbrigade_robe_warrior.rsi

@@ -1,0 +1,16 @@
+#- type: constructionGraph
+#  id: boldbrigadesteelcasa
+#  start: start
+#  graph:
+#  - node: start
+#    edges:
+#    - to: casa
+#      steps:
+#      - material: Steel
+#        amount: 10
+#        doafter: 1
+#      - material: Steel rods
+#        amount: 10
+#        doafter: 1
+#  - node: casa
+#    entity: MisfitsBoldBrigadeSteelCasa

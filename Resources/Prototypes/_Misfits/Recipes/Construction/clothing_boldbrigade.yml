@@ -1,0 +1,12 @@
+#- type: construction
+#  name: Steel Casa
+#  id: SteelCasaCraft
+#  graph: boldbrigadesteelcasa
+#  startNode: start
+#  targetNode: casa
+#  category: construction-category-clothing
+#  description: A protective hat in the shape of wide cone. This is a steel one without any markings, and provides decent protection.
+#  icon: { sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_steel.rsi, state: icon }
+#  objectType: Item
+#  hide: false
+

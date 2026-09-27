@@ -1,0 +1,169 @@
+- type: handCraftIntellRecipe
+  id: steelcasa
+  minInt: 5
+  result: MisfitsBoldBrigadeSteelCasa
+  description: "A protective hat in the shape of wide cone. This is a steel one without any markings, and provides decent protection."
+  completeTime: 10
+  materials:
+    Steel: 1000
+    MetalRod: 1000
+
+- type: handCraftIntellRecipe
+  id: strawhat
+  minInt: 5
+  result: MisfitsBoldBrigadeStrawHat
+  completeTime: 10
+  materials:
+    Wheat: 50
+
+- type: handCraftIntellRecipe
+  id: strawhatrazor
+  minInt: 5
+  result: MisfitsBoldBrigadeStrawHat
+  completeTime: 10
+  materials:
+    Razorgrain: 50
+
+- type: handCraftIntellRecipe
+  id: warriorsandals
+  minInt: 5
+  result: MisfitsBoldBrigadeSandals
+  completeTime: 10
+  materials:
+    Wheat: 20
+
+- type: handCraftIntellRecipe
+  id: warriorsandals
+  minInt: 5
+  result: MisfitsBoldBrigadeSandals
+  completeTime: 10
+  materials:
+    Razorgrain: 20
+
+- type: handCraftIntellRecipe
+  id: warriorrobe
+  minInt: 5
+  result: MisfitsBoldBrigadeRobeWarrior
+  completeTime: 10
+  materials:
+    Cloth: 1000
+    Thread: 1000
+
+- type: handCraftIntellRecipe
+  id: warriormaskwood
+  minInt: 5
+  result: MisfitsBoldBrigadeMaskWood
+  completeTime: 10
+  materials:
+    Wood: 2000
+    Thread: 2000
+
+- type: handCraftIntellRecipe
+  id: boldbrigadevest
+  minInt: 5
+  result: MisfitsBoldBrigadeVest
+  completeTime: 15
+  materials:
+    Steel: 1500
+    N14Copper: 500
+    Thread: 100
+
+- type: handCraftIntellRecipe
+  id: boldbrigadevestreinforced
+  minInt: 5
+  result: MisfitsBoldBrigadeVestReinforced
+  completeTime: 15
+  materials:
+    boldbrigadevest: 1
+    Steel: 100
+
+- type: handCraftIntellRecipe
+  id: boldbrigadechainmail
+  minInt: 5
+  result: MisfitsBoldBrigadeVestChainmail
+  completeTime: 15
+  materials:
+    Steel: 2500
+    N14Copper: 500
+    Thread: 1000
+
+- type: handCraftIntellRecipe
+  id: boldbrigadechainmailvestreinforced
+  minInt: 5
+  result: MisfitsBoldBrigadeVestReinforcedChainmail
+  completeTime: 15
+  materials:
+    boldbrigadechainmail: 1
+    Steel: 1000
+
+- type: handCraftIntellRecipe
+  id: boldbrigadelargehat
+  minInt: 5
+  result: MisfitsBoldBrigadeLargeWarHat
+  completeTime: 15
+  materials:
+    Steel: 1000
+    N14Copper: 8000
+    Steel rods: 10
+
+- type: handCraftIntellRecipe
+  id: boldbrigadecombathat
+  minInt: 5
+  result: MisfitsBoldBrigadeWarriorHat
+  completeTime: 15
+  materials:
+    Steel: 1000
+    N14Copper: 200
+    Steel rods: 5
+
+- type: handCraftIntellRecipe
+  id: boldbrigadehelmet
+  minInt: 5
+  result: MisfitsBoldBrigadeHat
+  completeTime: 15
+  materials:
+    Steel: 100
+    N14Copper: 400
+
+- type: handCraftIntellRecipe
+  id: boldbrigadeheavyhelmet
+  minInt: 5
+  result: MisfitsBoldBrigadeHatHeavy
+  completeTime: 15
+  materials:
+    Steel: 3000
+    N14Copper: 6000
+
+- type: handCraftIntellRecipe
+  id: boldbrigadecopperwarmask
+  minInt: 5
+  result: MisfitsBoldBrigadeWarMask
+  completeTime: 10
+  materials:
+    N14Copper: 2000
+    Thread: 500
+
+- type: handCraftIntellRecipe
+  id: boldbrigaderobe
+  minInt: 5
+  result: MisfitsBoldBrigadeRobe
+  completeTime: 10
+  materials:
+    Cloth: 5
+    N14Copper: 100
+
+- type: handCraftIntellRecipe
+  id: boldbrigademonkhat
+  minInt: 5
+  result: MisfitsBoldBrigadeMonkHat
+  completeTime: 10
+  materials:
+    Wheat: 200
+
+- type: handCraftIntellRecipe
+  id: boldbrigademonkhatrazor
+  minInt: 5
+  result: MisfitsBoldBrigadeMonkHat
+  completeTime: 10
+  materials:
+    Razorgrain: 200

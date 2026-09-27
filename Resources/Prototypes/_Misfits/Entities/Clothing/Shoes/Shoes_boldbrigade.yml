@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesBase
+  id: MisfitsBoldBrigadeSandals
+  name: Warrior Sandals
+  description: "Sandals made out of tough plant fiber. Should be good for going to a war."
+  components:
+    - type: Sprite
+      sprite: _Misfits/Clothing/Boldbrigade/Shoes/boldbrigade_sandals.rsi
+    - type: Clothing
+      sprite: _Misfits/Clothing/Boldbrigade/Shoes/boldbrigade_sandals.rsi

@@ -1,0 +1,154 @@
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeMonkHat
+  name: Monk Hat
+  description: "A basket-like hat with three openings to see through. Fabled to be used by monks that play flutes."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_monk.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_monk.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeStrawHat
+  name: Straw Hat
+  description: "A wide hat made out of hay. This one looks like a bowl."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_straw.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_straw.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeStrawHatAlt
+  name: Straw Hat
+  description: "A wide hat made out of hay. This one is wide and with an opening to see through."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_straw_alt.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_straw_alt.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeSteelCasa
+  name: Steel Casa
+  description: "A protective hat in the shape of wide cone. This is a steel one without any markings, and provides decent protection."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_steel.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_steel.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.10
+        Slash: 0.10
+        Piercing: 0.10
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeHat
+  name: Brigade hat
+  description: "A protective hat in the shape of wide cone. This is a steel one with markings, and provides decent protection."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.10
+        Slash: 0.10
+        Piercing: 0.10
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeHatHeavy
+  name: Heavy Brigade hat
+  description: "A heavy copper and steel helmet reinforced with chainmail and extra steel on the sides, alongside an eye piece. It also has an insignia of the Bold Brigade."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_heavy.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_heavy.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.15
+        Slash: 0.15
+        Piercing: 0.15
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeLargeWarHat
+  name: Large Battle Hat
+  description: "A protective hat in the shape of wide cone. This is a steel one with markings, and provides decent protection."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_large.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_large.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.15
+        Slash: 0.15
+        Piercing: 0.10
+  - type: ClothingSpeedModifier
+    walkModifier: 0.90
+    sprintModifier: 0.95
+
+- type: entity
+  parent: ClothingHeadBase
+  id: MisfitsBoldBrigadeWarriorHat
+  name: Brigade Combat Hat
+  description: "A protective hat in the shape of a wide cone. This is a steel one with a copper coat, with the insignia of the Bold Brigade, providing decent protection."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_v4.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Helmets/boldbrigade_hat_v4.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.10
+        Slash: 0.10
+        Piercing: 0.10
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: MisfitsBoldBrigadeWarMask
+  name: Copper War Mask
+  description: "A simple yet terrifying war mask with strings for a mustache and a nasty visage. This one is copper, and provides some protection."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Masks/boldbrigade_mask_war.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Masks/boldbrigade_mask_war.rsi
+  - type: Mask
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: MisfitsBoldBrigadeWarMaskWood
+  name: War Mask
+  description: "A simple yet terrifying war mask with strings for a mustache and a nasty visage. This one is wooden."
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Masks/boldbrigade_mask_wood.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/Boldbrigade/Head/Masks/boldbrigade_mask_wood.rsi
+  - type: Mask
+  - type: IdentityBlocker
+
